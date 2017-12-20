@@ -1,0 +1,166 @@
+body {
+	background-color: #999999;
+	background-image: url(../image/essai_def_hippie.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#lsd{
+	position: absolute;
+	z-index:2;
+	top: 30%;
+	right: 6%;
+}
+
+#brand{
+	position: absolute;
+	z-index:2;
+	top: 43%;
+	right: 6%;
+}
+
+#hippie{
+	position: absolute;
+	z-index:2;
+	top: 69%;
+	right: 6%;
+}
+ 
+#techno{
+	position: absolute;
+	z-index:2;
+	top: 56%;
+	right: 6%;
+	
+}
+
+#ascenseur img{
+	height:100vh;
+	display: inline-block;
+	position: absolute;
+	z-index:1;
+	right: 0%;
+	top:0%;
+}
+
+
+
+
+
+#section1{
+	border-radius: 10px;
+	position: absolute;
+	top: 48%;
+	left: 23.5%;
+	z-index: 2;
+}
+
+#section1:hover{
+	width: 280px;
+	background-color: #d6bc63;
+}
+
+#section1:hover #description{
+	display:block;
+	padding: 20px;
+}
+
+#section2{
+	border-radius: 10px;
+	position: absolute;
+	top: 67%;
+	left: 34.5%;
+	z-index: 1;
+}
+
+#section2:hover{
+	width: 390px;
+	background-color: #d6bc63;
+}
+
+#section2:hover #description{
+	display:block;
+	padding: 20px;
+}
+
+#section3{
+	border-radius: 10px;
+	position: absolute;
+	top: 31%;
+	left: 67%;
+	z-index: 3;
+}
+
+#section3:hover{
+	width: 230px;
+	background-color: #d6bc63;
+}
+
+#section3:hover #description{
+	display:block;
+	padding: 20px;
+}
+
+#section4{
+	border-radius: 10px;
+	position: absolute;
+	top: 45%;
+	left: 56.5%;
+	z-index: 4;
+}
+
+#section4:hover{
+	width: 300px;
+	background-color: #d6bc63;
+}
+
+#section4:hover #description{
+	display:block;
+	padding: 20px;
+}
+
+#section5{
+	border-radius: 10px;
+	position: absolute;
+	top: 44%;
+	left: 66%;
+	z-index: 3;
+}
+
+#section5:hover{
+	width: 260px;
+	background-color: #d6bc63;
+}
+
+#section5:hover #description{
+	display:block;
+	padding: 20px;
+}
+
+
+
+#bouton{
+	width: 10px;
+	height: 10px;
+	background-color: black;
+}
+
+
+#description{
+	display: none;
+}
+
+
+
+h1{
+	font-size: 20px;
+	font-family: Helvetica;
+}
+
+p{
+	font-size: 15px;
+	margin-top: 15px;
+	font-family: Helvetica;
+	line-height: 17px;
+}

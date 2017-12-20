@@ -1,0 +1,211 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+#fond #couloir{
+	margin: auto;
+	height: 100vh;
+	top: 0%;
+	max-width:100%;
+}
+
+#lsd{
+	position: absolute;
+	z-index:2;
+	top: 30%;
+	right: 6%;
+}
+
+#brand{
+	position: absolute;
+	z-index:2;
+	top: 43%;
+	right: 6%;
+}
+
+#hippie{
+	position: absolute;
+	z-index:2;
+	top: 69%;
+	right: 6%;
+}
+ 
+#techno{
+	position: absolute;
+	z-index:2;
+	top: 56%;
+	right: 6%;
+	
+}
+
+#ascenseur img{
+	height:100vh;
+	display: inline-block;
+	position: absolute;
+	z-index:1;
+	right: 0%;
+	top:0%;
+}
+
+
+
+
+
+#section1{
+	border-radius: 10px;
+	position: absolute;
+	top: 65%;
+	left: 45%;
+}
+
+#section1:hover{
+	width: 330px;
+	background-color: #d6bc63;
+}
+
+#section1:hover #description{
+	display:block;
+	padding: 20px;
+}
+
+#section2{
+	border-radius: 10px;
+	position: absolute;
+	top: 45%;
+	left: 15%;
+}
+
+#section2:hover{
+	width: 280px;
+	background-color: #d6bc63;
+}
+
+#section2:hover #description{
+	display:block;
+	padding: 20px;
+}
+
+#section3{
+	border-radius: 10px;
+	position: absolute;
+	top: 30%;
+	left: 29%;
+}
+
+#section3:hover{
+	width: 330px;
+	background-color: #d6bc63;
+}
+
+#section3:hover #description{
+	display:block;
+	padding: 20px;
+}
+
+#section4{
+	border-radius: 10px;
+	position: absolute;
+	top: 35%;
+	left: 52%;
+}
+
+#section4:hover{
+	width: 280px;
+	background-color: #d6bc63;
+}
+
+#section4:hover #description{
+	display:block;
+	padding: 20px;
+}
+
+#section5{
+	border-radius: 10px;
+	position: absolute;
+	top: 45%;
+	left: 62%;
+}
+
+#section5:hover{
+	width: 250px;
+	background-color: #d6bc63;
+}
+
+#section5:hover #description{
+	display:block;
+	padding: 20px;
+}
+
+
+
+#bouton{
+	width: 10px;
+	height: 10px;
+	background-color: black;
+}
+
+
+#description{
+	display: none;
+}
+
+
+
+h1{
+	font-size: 20px;
+	font-family: Helvetica;
+}
+
+p{
+	font-size: 15px;
+	margin-top: 15px;
+	font-family: Helvetica;
+	line-height: 17px;
+}
